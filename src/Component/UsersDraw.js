@@ -57,6 +57,10 @@ export const UsersDraw = ({loader, users, saveToLocalStorage, setUsers, setVisib
           )}
       </tbody>
 </table>
+{users.length === 0 ? <div class="content">
+		<h2>No Task!</h2>
+		<h2>No Task!</h2>
+	</div> : ''}
 </>}
     </div>
   )
