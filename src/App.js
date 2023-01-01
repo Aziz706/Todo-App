@@ -114,10 +114,7 @@ export const App = () => {
         activeClassName={"paginationActive"}
       />}
       
-      {users.length === 0 ? <div class="content">
-		<h2>No Task!</h2>
-		<h2>No Task!</h2>
-	</div> : ''}
+      
       <ToastContainer />
     </div>
   )
